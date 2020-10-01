@@ -3,15 +3,16 @@
  .data
    a dw 1200
    b dw 2345
-   c db 50
+   c dw 50
    d dw 100
-   e dw?
+   e dw ?
  .code
   mov ax,@data
   mov ds,ax
   mov ax,a
-  add ax,b
-  mov cl,c
+  mov bx,b
+  add ax,bx
+  mov cx,c
   mov dx,d
   add cx,dx
   sub ax,cx
