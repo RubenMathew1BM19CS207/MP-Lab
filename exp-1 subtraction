@@ -2,7 +2,7 @@
 .model small
  .data
    a dw 1200
-   b dw 2345
+   b dw 2345 
    c dw 50
    d dw 100
    e dw ?
