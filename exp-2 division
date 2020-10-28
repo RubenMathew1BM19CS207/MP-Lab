@@ -10,7 +10,7 @@ rem dw ?
 
 .code
  mov ax,@data
- mov ds,ax
+ mov ds,ax 
  mov ax,a
  add ax,b
  mov ax,c
