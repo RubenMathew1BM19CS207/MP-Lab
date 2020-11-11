@@ -26,7 +26,7 @@
 
    MOV AH,4CH
    INT 21H
-
+ 
    DISP PROC NEAR
    MOV DL,BH      ;BX=0104
    ADD DL,30H      ;  31
